@@ -2,9 +2,8 @@
 // randomly generate a color with rgb
 function getRandomColor() {
     var r = Math.floor(Math.random() * 256); // 0 to 255
-    var g = Math.floor(Math.random() * 256); // 0 to 255
-    var b = Math.floor(Math.random() * 256); // 0 to 255
-    return [r, g, b];
+    var g = Math.floor(Math.random() * 256);
+    var b = Math.floor(Math.random() * 256);
 }
 
 // converts rgb values to hex bc hex is cuter
